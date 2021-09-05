@@ -1726,4 +1726,256 @@ error: src refspec master does not match any
 [31merror: failed to push some refs to 'https://github.com/karin71/learning-english-on-netflix.git'
 [m[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit init[27m[8D[27mg[27mi[27mt[27m [27mi[27mn[27mi[27mt[?2004l
 Reinitialized existing Git repository in /Users/fujimotokarin/myblog/.git/
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit add .[27m[9D[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit commit -m “first commit”[27m[28D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m“[27mf[27mi[27mr[27ms[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m”[?2004l
+error: pathspec 'commit”' did not match any file(s) known to git
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hggit status[?2004l
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .DS_Store[m
+	[32mnew file:   .gitignore[m
+	[32mnew file:   404.html[m
+	[32mnew file:   Gemfile[m
+	[32mnew file:   Gemfile.lock[m
+	[32mnew file:   LICENSE.txt[m
+	[32mnew file:   README.md[m
+	[32mnew file:   _config.yml[m
+	[32mnew file:   _includes/disqus_comments.html[m
+	[32mnew file:   _includes/footer.html[m
+	[32mnew file:   _includes/google-analytics.html[m
+	[32mnew file:   _includes/head.html[m
+	[32mnew file:   _includes/header.html[m
+	[32mnew file:   _includes/icon-github.html[m
+	[32mnew file:   _includes/icon-github.svg[m
+	[32mnew file:   _includes/icon-twitter.html[m
+	[32mnew file:   _includes/icon-twitter.svg[m
+	[32mnew file:   _includes/social.html[m
+	[32mnew file:   _layouts/default.html[m
+	[32mnew file:   _layouts/home.html[m
+	[32mnew file:   _layouts/page.html[m
+	[32mnew file:   _layouts/post.html[m
+	[32mnew file:   _posts/2021-09-03-welcome-to-jekyll.markdown[m
+	[32mnew file:   _posts/2021-09-04-test-content.markdown[m
+	[32mnew file:   _sass/minima.scss[m
+	[32mnew file:   _sass/minima/_base.scss[m
+	[32mnew file:   _sass/minima/_layout.scss[m
+	[32mnew file:   _sass/minima/_syntax-highlighting.scss[m
+	[32mnew file:   about.markdown[m
+	[32mnew file:   assets/main.scss[m
+	[32mnew file:   assets/minima-social-icons.svg[m
+	[32mnew file:   categorylist.markdown[m
+	[32mnew file:   images/img07.jpeg[m
+	[32mnew file:   index.markdown[m
+	[32mnew file:   plofile.markdown[m
+	[32mnew file:   working.log[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   working.log[m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit commit -m ‘最初のコミット’[27m[30D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m‘[27m最[27m[27m初[27m[27mの[27m[27mコ[27m[27mミ[27m[27mッ[27m[27mト[27m[27m’[?2004l
+[master (root-commit) 8ae5699] ‘最初のコミット’
+ Committer: 藤本かりん <fujimotokarin@fujimotokarinnoMacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 36 files changed, 3218 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .gitignore
+ create mode 100644 404.html
+ create mode 100644 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100644 LICENSE.txt
+ create mode 100644 README.md
+ create mode 100644 _config.yml
+ create mode 100644 _includes/disqus_comments.html
+ create mode 100644 _includes/footer.html
+ create mode 100644 _includes/google-analytics.html
+ create mode 100644 _includes/head.html
+ create mode 100644 _includes/header.html
+ create mode 100644 _includes/icon-github.html
+ create mode 100644 _includes/icon-github.svg
+ create mode 100644 _includes/icon-twitter.html
+ create mode 100644 _includes/icon-twitter.svg
+ create mode 100644 _includes/social.html
+ create mode 100644 _layouts/default.html
+ create mode 100644 _layouts/home.html
+ create mode 100644 _layouts/page.html
+ create mode 100644 _layouts/post.html
+ create mode 100644 _posts/2021-09-03-welcome-to-jekyll.markdown
+ create mode 100644 _posts/2021-09-04-test-content.markdown
+ create mode 100644 _sass/minima.scss
+ create mode 100644 _sass/minima/_base.scss
+ create mode 100644 _sass/minima/_layout.scss
+ create mode 100644 _sass/minima/_syntax-highlighting.scss
+ create mode 100644 about.markdown
+ create mode 100644 assets/main.scss
+ create mode 100644 assets/minima-social-icons.svg
+ create mode 100644 categorylist.markdown
+ create mode 100644 images/img07.jpeg
+ create mode 100644 index.markdown
+ create mode 100644 plofile.markdown
+ create mode 100644 working.log
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit log[27m[27mg[27mi[27mt[27m [27ml[27mo[27mg[?2004l
+[?1h=[33mcommit 8ae569939976c269169302a27781fe7913de6ce7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: 藤本かりん <fujimotokarin@fujimotokarinnoMacBook-Air.local>[m
+Date:   Mon Sep 6 01:03:13 2021 +0900[m
+[m
+    ‘最初のコミット’[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit push origin master[27m[22D[27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mm[27ma[27ms[27mt[27me[27m       [7mhttps://github.com/karin71/learning-english-on-netflix.git[27m[58D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m/[27ml[27me[27ma[27mr[27mn[27mi[27mn[27mg[27m-[27me[27mn[27mg[27ml[27mi[27ms[27mh[27m-[27mo[27mn[27m-[27mn[27me[27mt[27mf[27ml[27mi[27mx[27m.[27mg[27mi[27mt[?2004l
+fatal: invalid refspec 'https://github.com/karin71/learning-english-on-netflix.git'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hgit push origin https://github.com/karin71/learning-english-on-netflix.git[P[59C [60D[P[59C [60D[P[59C [60D[P[59C [60D[P[59C [60D[P[59C [60D[P[58C [60D[?2004l
+Username for 'https://github.com': karin71
+Password for 'https://karin71@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/karin71/learning-english-on-netflix.git/'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hggit pusg h[?2004l
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hgit push origin master[?2004l
+Username for 'https://github.com': karin71
+Password for 'https://karin71@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/karin71/learning-english-on-netflix.git/'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hccd .git[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog/.git[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air .git % [K[?2004hoopen .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog/.git[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air .git % [K[?2004h[7mgit init[27m
+[7mgit add .[27m[K
+[7mgit commit -m "first commit"[27m[K[A[A[20C[27mg[27mi[27mt[27m [27mi[27mn[27mi[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mf[27mi[27mr[27ms[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m"[?2004l
+[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /Users/fujimotokarin/myblog/.git/.git/
+[master (root-commit) 13a7d0b] first commit
+ Committer: 藤本かりん <fujimotokarin@fujimotokarinnoMacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 69 files changed, 828 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 COMMIT_EDITMSG
+ create mode 100644 HEAD
+ create mode 100644 config
+ create mode 100644 description
+ create mode 100755 hooks/applypatch-msg.sample
+ create mode 100755 hooks/commit-msg.sample
+ create mode 100755 hooks/fsmonitor-watchman.sample
+ create mode 100755 hooks/post-update.sample
+ create mode 100755 hooks/pre-applypatch.sample
+ create mode 100755 hooks/pre-commit.sample
+ create mode 100755 hooks/pre-merge-commit.sample
+ create mode 100755 hooks/pre-push.sample
+ create mode 100755 hooks/pre-rebase.sample
+ create mode 100755 hooks/pre-receive.sample
+ create mode 100755 hooks/prepare-commit-msg.sample
+ create mode 100755 hooks/push-to-checkout.sample
+ create mode 100755 hooks/update.sample
+ create mode 100644 index
+ create mode 100644 info/exclude
+ create mode 100644 logs/HEAD
+ create mode 100644 logs/refs/heads/master
+ create mode 100644 objects/06/715078416fe7a0f7153a3d1e9ec351217c99ad
+ create mode 100644 objects/08/6a5c9ea988c5a4d37acc5f8ea089e37cb19371
+ create mode 100644 objects/0b/fd20d88c87c941b95e3e1a800dc6dad28d7880
+ create mode 100644 objects/0e/3419098bda1e902a8927dd4a0b60e9a9863982
+ create mode 100644 objects/0e/7ecd8b35fc5d3b45d6c12a3cd624b87b047990
+ create mode 100644 objects/14/7dc8bdcea7a4070f4c4d50c1b3db7fec9fdb2a
+ create mode 100644 objects/3c/63f0276f80806c5bb53885076e6f84c0c161ba
+ create mode 100644 objects/44/046b86653826c25e57a7adf83089fc7e06b895
+ create mode 100644 objects/46/85693289547dced4290324538ad3a2d31f4415
+ create mode 100644 objects/4f/455cc2870b4f0437bd36c4f1b362634ce0e216
+ create mode 100644 objects/52/dc2d866d5ab9bd2a43d8140213280227cf8222
+ create mode 100644 objects/54/ae70bf3ead5b73ebef7d98da27658b83a174f7
+ create mode 100644 objects/58/e141b746bc9be760ca042c9072d6152cbfa3e5
+ create mode 100644 objects/65/8531d869918b044429c34d9c0e47a175afbecd
+ create mode 100644 objects/7b/6e65543b843224ac7ccee5c05a57ce2a38d406
+ create mode 100644 objects/84/d9c7dd1593e6b223e4880a77c6255ece98fab4
+ create mode 100644 objects/88/2a19176feeef51655eb47a94bf3a9fec0ef2d9
+ create mode 100644 objects/8a/e569939976c269169302a27781fe7913de6ce7
+ create mode 100644 objects/8b/4e0b28c83e707c74fcfc6a53f3f084033cfd58
+ create mode 100644 objects/93/0182ab478d282624a4e4630b68d55109317dc2
+ create mode 100644 objects/a4/2ee133d27bf8bcdd5bc9737f99e27ec3be4ca1
+ create mode 100644 objects/ab/f9696da7876fdc787140087379fca147d47c40
+ create mode 100644 objects/b2/20ccdf742e1677b4bf7ccf58f932c5abc0e973
+ create mode 100644 objects/b9/01fac23df9105ba73b0572102d894918031d1a
+ create mode 100644 objects/bc/cdb8995361dfae7b3823bfcbcd85fd7906f6fb
+ create mode 100644 objects/c0/417b541b80a67a843ef45a320f0bafdf640abe
+ create mode 100644 objects/c6/0ebe425abfbe1e9952c7fec19122ea5d3d1334
+ create mode 100644 objects/c7/358db4e17b14632e95bb3872047f5b3064fe92
+ create mode 100644 objects/c9/c61d8eb01d6c4141cdbccb8a80390b41bd0393
+ create mode 100644 objects/cb/0865b1a27a2b20ee17cd0d47b535a87f811878
+ create mode 100644 objects/d8/bd0d4c5661ff5641edae091926eab56a6924ad
+ create mode 100644 objects/d9/400f2de194e28756465b3b4791ca9c85399fab
+ create mode 100644 objects/da/7b010c9f8fc8b0529d6b150484b450a305feb9
+ create mode 100644 objects/df/44590fdf746497d902cd527980128089498945
+ create mode 100644 objects/e4/df8b951b2f639e9f19c4b9b6ed5b063f5b25bd
+ create mode 100644 objects/e5/01a16b18780f2f5beb70d992a5e7f0635f65fb
+ create mode 100644 objects/e6/23dbd6efc532519f62cca86e4509429018e92d
+ create mode 100644 objects/e6/c5f6dfd6c48c15f13ea90b09d6c38b2c781186
+ create mode 100644 objects/e9/afb2093b557daa1149cd21306cd82c94dce056
+ create mode 100644 objects/ec/8edec346393d3dd89478ca979948e9d7ef98f3
+ create mode 100644 objects/ef/c0ecf6781d8214a3b443beeea83b112fdb89ca
+ create mode 100644 objects/f0/25bec151e84981c3e2d876aae586302476af68
+ create mode 100644 objects/f2/9493c24fedef3fbef2ef075df10ba5ce461320
+ create mode 100644 objects/f4/0fbd8ba564ea28e0a2501e2921909467b39887
+ create mode 100644 objects/f6/58a055246e0da6c3ec4e74cd0cf8958760b4b1
+ create mode 100644 objects/fa/7399fe2509e97ea171829de5b361d057567609
+ create mode 100644 refs/heads/master
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog/.git[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air .git % [K[?2004h[7mgit remote add origin[27m[21D[27mg[27mi[27mt[27m [27mr[27me[27mm[27mo[27mt[27me[27m [27ma[27md[27md[27m [27mo[27mr[27mi[27mg[27mi[27mn [7mhttps://github.com/karin71/learning-english-on-netflix.git[27m[58D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m/[27ml[27me[27ma[27mr[27mn[27mi[27mn[27mg[27m-[27me[27mn[27mg[27ml[27mi[27ms[27mh[27m-[27mo[27mn[27m-[27mn[27me[27mt[27mf[27ml[27mi[27mx[27m.[27mg[27mi[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog/.git[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air .git % [K[?2004h[7mgit push -u origin master[27m[25D[27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27m-[27mu[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mm[27ma[27ms[27mt[27me[27mr[?2004l
+Username for 'https://github.com': kyar   arin71
+Password for 'https://karin71@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/karin71/learning-english-on-netflix.git/'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog/.git[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air .git % [K[?2004hgit push -u origin master[?2004l
+Username for 'https://github.com': kyari    arin71
+Password for 'https://karin71@github.com': 
+Enumerating objects: 122, done.
+Counting objects:   0% (1/122)Counting objects:   1% (2/122)Counting objects:   2% (3/122)Counting objects:   3% (4/122)Counting objects:   4% (5/122)Counting objects:   5% (7/122)Counting objects:   6% (8/122)Counting objects:   7% (9/122)Counting objects:   8% (10/122)Counting objects:   9% (11/122)Counting objects:  10% (13/122)Counting objects:  11% (14/122)Counting objects:  12% (15/122)Counting objects:  13% (16/122)Counting objects:  14% (18/122)Counting objects:  15% (19/122)Counting objects:  16% (20/122)Counting objects:  17% (21/122)Counting objects:  18% (22/122)Counting objects:  19% (24/122)Counting objects:  20% (25/122)Counting objects:  21% (26/122)Counting objects:  22% (27/122)Counting objects:  23% (29/122)Counting objects:  24% (30/122)Counting objects:  25% (31/122)Counting objects:  26% (32/122)Counting objects:  27% (33/122)Counting objects:  28% (35/122)Counting objects:  29% (36/122)Counting objects:  30% (37/122)Counting objects:  31% (38/122)Counting objects:  32% (40/122)Counting objects:  33% (41/122)Counting objects:  34% (42/122)Counting objects:  35% (43/122)Counting objects:  36% (44/122)Counting objects:  37% (46/122)Counting objects:  38% (47/122)Counting objects:  39% (48/122)Counting objects:  40% (49/122)Counting objects:  41% (51/122)Counting objects:  42% (52/122)Counting objects:  43% (53/122)Counting objects:  44% (54/122)Counting objects:  45% (55/122)Counting objects:  46% (57/122)Counting objects:  47% (58/122)Counting objects:  48% (59/122)Counting objects:  49% (60/122)Counting objects:  50% (61/122)Counting objects:  51% (63/122)Counting objects:  52% (64/122)Counting objects:  53% (65/122)Counting objects:  54% (66/122)Counting objects:  55% (68/122)Counting objects:  56% (69/122)Counting objects:  57% (70/122)Counting objects:  58% (71/122)Counting objects:  59% (72/122)Counting objects:  60% (74/122)Counting objects:  61% (75/122)Counting objects:  62% (76/122)Counting objects:  63% (77/122)Counting objects:  64% (79/122)Counting objects:  65% (80/122)Counting objects:  66% (81/122)Counting objects:  67% (82/122)Counting objects:  68% (83/122)Counting objects:  69% (85/122)Counting objects:  70% (86/122)Counting objects:  71% (87/122)Counting objects:  72% (88/122)Counting objects:  73% (90/122)Counting objects:  74% (91/122)Counting objects:  75% (92/122)Counting objects:  76% (93/122)Counting objects:  77% (94/122)Counting objects:  78% (96/122)Counting objects:  79% (97/122)Counting objects:  80% (98/122)Counting objects:  81% (99/122)Counting objects:  82% (101/122)Counting objects:  83% (102/122)Counting objects:  84% (103/122)Counting objects:  85% (104/122)Counting objects:  86% (105/122)Counting objects:  87% (107/122)Counting objects:  88% (108/122)Counting objects:  89% (109/122)Counting objects:  90% (110/122)Counting objects:  91% (112/122)Counting objects:  92% (113/122)Counting objects:  93% (114/122)Counting objects:  94% (115/122)Counting objects:  95% (116/122)Counting objects:  96% (118/122)Counting objects:  97% (119/122)Counting objects:  98% (120/122)Counting objects:  99% (121/122)Counting objects: 100% (122/122)Counting objects: 100% (122/122), done.
+Delta compression using up to 8 threads
+Compressing objects:   0% (1/114)Compressing objects:   1% (2/114)Compressing objects:   2% (3/114)Compressing objects:   3% (4/114)Compressing objects:   4% (5/114)Compressing objects:   5% (6/114)Compressing objects:   6% (7/114)Compressing objects:   7% (8/114)Compressing objects:   8% (10/114)Compressing objects:   9% (11/114)Compressing objects:  10% (12/114)Compressing objects:  11% (13/114)Compressing objects:  12% (14/114)Compressing objects:  13% (15/114)Compressing objects:  14% (16/114)Compressing objects:  15% (18/114)Compressing objects:  16% (19/114)Compressing objects:  17% (20/114)Compressing objects:  18% (21/114)Compressing objects:  19% (22/114)Compressing objects:  20% (23/114)Compressing objects:  21% (24/114)Compressing objects:  22% (26/114)Compressing objects:  23% (27/114)Compressing objects:  24% (28/114)Compressing objects:  25% (29/114)Compressing objects:  26% (30/114)Compressing objects:  27% (31/114)Compressing objects:  28% (32/114)Compressing objects:  29% (34/114)Compressing objects:  30% (35/114)Compressing objects:  31% (36/114)Compressing objects:  32% (37/114)Compressing objects:  33% (38/114)Compressing objects:  34% (39/114)Compressing objects:  35% (40/114)Compressing objects:  36% (42/114)Compressing objects:  37% (43/114)Compressing objects:  38% (44/114)Compressing objects:  39% (45/114)Compressing objects:  40% (46/114)Compressing objects:  41% (47/114)Compressing objects:  42% (48/114)Compressing objects:  43% (50/114)Compressing objects:  44% (51/114)Compressing objects:  45% (52/114)Compressing objects:  46% (53/114)Compressing objects:  47% (54/114)Compressing objects:  48% (55/114)Compressing objects:  49% (56/114)Compressing objects:  50% (57/114)Compressing objects:  51% (59/114)Compressing objects:  52% (60/114)Compressing objects:  53% (61/114)Compressing objects:  54% (62/114)Compressing objects:  55% (63/114)Compressing objects:  56% (64/114)Compressing objects:  57% (65/114)Compressing objects:  58% (67/114)Compressing objects:  59% (68/114)Compressing objects:  60% (69/114)Compressing objects:  61% (70/114)Compressing objects:  62% (71/114)Compressing objects:  63% (72/114)Compressing objects:  64% (73/114)Compressing objects:  65% (75/114)Compressing objects:  66% (76/114)Compressing objects:  67% (77/114)Compressing objects:  68% (78/114)Compressing objects:  69% (79/114)Compressing objects:  70% (80/114)Compressing objects:  71% (81/114)Compressing objects:  72% (83/114)Compressing objects:  73% (84/114)Compressing objects:  74% (85/114)Compressing objects:  75% (86/114)Compressing objects:  76% (87/114)Compressing objects:  77% (88/114)Compressing objects:  78% (89/114)Compressing objects:  79% (91/114)Compressing objects:  80% (92/114)Compressing objects:  81% (93/114)Compressing objects:  82% (94/114)Compressing objects:  83% (95/114)Compressing objects:  84% (96/114)Compressing objects:  85% (97/114)Compressing objects:  86% (99/114)Compressing objects:  87% (100/114)Compressing objects:  88% (101/114)Compressing objects:  89% (102/114)Compressing objects:  90% (103/114)Compressing objects:  91% (104/114)Compressing objects:  92% (105/114)Compressing objects:  93% (107/114)Compressing objects:  94% (108/114)Compressing objects:  95% (109/114)Compressing objects:  96% (110/114)Compressing objects:  97% (111/114)Compressing objects:  98% (112/114)Compressing objects:  99% (113/114)Compressing objects: 100% (114/114)Compressing objects: 100% (114/114), done.
+Writing objects:   0% (1/122)Writing objects:   1% (2/122)Writing objects:   2% (3/122)Writing objects:   3% (4/122)Writing objects:   4% (5/122)Writing objects:   5% (7/122)Writing objects:   6% (8/122)Writing objects:   7% (9/122)Writing objects:   8% (10/122)Writing objects:   9% (11/122)Writing objects:  10% (13/122)Writing objects:  11% (14/122)Writing objects:  12% (15/122)Writing objects:  13% (16/122)Writing objects:  14% (18/122)Writing objects:  15% (19/122)Writing objects:  16% (20/122)Writing objects:  17% (21/122)Writing objects:  18% (22/122)Writing objects:  19% (24/122)Writing objects:  20% (25/122)Writing objects:  21% (26/122)Writing objects:  22% (27/122)Writing objects:  23% (29/122)Writing objects:  24% (30/122)Writing objects:  25% (31/122)Writing objects:  26% (32/122)Writing objects:  27% (33/122)Writing objects:  28% (35/122)Writing objects:  29% (36/122)Writing objects:  30% (37/122)Writing objects:  31% (38/122)Writing objects:  32% (40/122)Writing objects:  33% (41/122)Writing objects:  34% (42/122)Writing objects:  35% (43/122)Writing objects:  36% (44/122)Writing objects:  37% (46/122)Writing objects:  38% (47/122)Writing objects:  39% (48/122)Writing objects:  40% (49/122)Writing objects:  41% (51/122)Writing objects:  42% (52/122)Writing objects:  43% (53/122)Writing objects:  44% (54/122)Writing objects:  45% (55/122)Writing objects:  46% (57/122)Writing objects:  47% (58/122)Writing objects:  48% (59/122)Writing objects:  49% (60/122)Writing objects:  50% (61/122)Writing objects:  51% (63/122)Writing objects:  52% (64/122)Writing objects:  53% (65/122)Writing objects:  54% (66/122)Writing objects:  55% (68/122)Writing objects:  56% (69/122)Writing objects:  57% (70/122)Writing objects:  58% (71/122)Writing objects:  59% (72/122)Writing objects:  60% (74/122)Writing objects:  61% (75/122)Writing objects:  62% (76/122)Writing objects:  63% (77/122)Writing objects:  64% (79/122)Writing objects:  65% (80/122)Writing objects:  66% (81/122)Writing objects:  67% (82/122)Writing objects:  68% (83/122)Writing objects:  69% (85/122)Writing objects:  70% (86/122)Writing objects:  71% (87/122)Writing objects:  72% (88/122)Writing objects:  73% (90/122)Writing objects:  74% (91/122)Writing objects:  75% (92/122)Writing objects:  76% (93/122)Writing objects:  77% (94/122)Writing objects:  78% (96/122)Writing objects:  79% (97/122)Writing objects:  80% (98/122)Writing objects:  81% (99/122)Writing objects:  82% (101/122)Writing objects:  83% (102/122)Writing objects:  84% (103/122)Writing objects:  85% (104/122)Writing objects:  86% (105/122)Writing objects:  87% (107/122)Writing objects:  88% (108/122)Writing objects:  89% (109/122)Writing objects:  90% (110/122)Writing objects:  91% (112/122)Writing objects:  92% (113/122)Writing objects:  93% (114/122)Writing objects:  94% (115/122)Writing objects:  95% (116/122)Writing objects:  96% (118/122)Writing objects:  97% (119/122)Writing objects:  98% (120/122)Writing objects:  99% (121/122)Writing objects: 100% (122/122)Writing objects: 100% (122/122), 87.71 KiB | 12.53 MiB/s, done.
+Total 122 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), done.[K
+To https://github.com/karin71/learning-english-on-netflix.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog/.git[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air .git % [K[?2004hccd .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog/.git[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air .git % [K[?2004hcd ..[?2004l
 [1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h
