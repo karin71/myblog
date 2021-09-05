@@ -1,0 +1,1729 @@
+Script started on Sat Sep  4 15:17:44 2021
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hoopen[?2004l
+Usage: open [-e] [-t] [-f] [-W] [-R] [-n] [-g] [-h] [-s <partial SDK name>][-b <bundle identifier>] [-a <application>] [filenames] [--args arguments]
+Help: Open opens files from a shell.
+      By default, opens each file using the default application for that file.  
+      If the file is in the form of a URL, the file will be opened as a URL.
+Options: 
+      -a                    Opens with the specified application.
+      -b                    Opens with the specified application bundle identifier.
+      -e                    Opens with TextEdit.
+      -t                    Opens with default text editor.
+      -f                    Reads input from standard input and opens with TextEdit.
+      -F  --fresh           Launches the app fresh, that is, without restoring windows. Saved persistent state is lost, excluding Untitled documents.
+      -R, --reveal          Selects in the Finder instead of opening.
+      -W, --wait-apps       Blocks until the used applications are closed (even if they were already running).
+          --args            All remaining arguments are passed in argv to the application's main() function instead of opened.
+      -n, --new             Open a new instance of the application even if one is already running.
+      -j, --hide            Launches the app hidden.
+      -g, --background      Does not bring the application to the foreground.
+      -h, --header          Searches header file locations for headers matching the given filenames, and opens them.
+      -s                    For -h, the SDK to use; if supplied, only SDKs whose names contain the argument value are searched.
+                            Otherwise the highest versioned SDK in each platform is used.
+      -i, --stdin  PATH     Launches the application with stdin connected to PATH; defaults to /dev/null
+      -o, --stdout PATH     Launches the application with /dev/stdout connected to PATH; 
+          --stderr PATH     Launches the application with /dev/stderr connected to PATH to
+          --env    VAR      Add an enviroment variable to the launched process, where VAR is formatted AAA=foo or just AAA for a null string value.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hoopen myblog[?2004l
+The file /Users/fujimotokarin/myblog/myblog does not exist.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air ~ % [K[?2004hcd ..open myblog[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air ~ % [K[?2004hjjell  kyll s[?2004l
+[33mConfiguration file: none[0m
+            Source: /Users/fujimotokarin
+       Destination: /Users/fujimotokarin/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.2.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/utils.rb:141:in `initialize': [1mNo such file or directory @ rb_sysopen - /Users/fujimotokarin/Library/Application Support/Google/Chrome/RunningChromeVersion ([1;4mErrno::ENOENT[m[1m)[m
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/utils.rb:141:in `open'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/utils.rb:141:in `has_yaml_header?'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:52:in `block in read_directories'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:48:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:48:in `read_directories'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:89:in `block in retrieve_dirs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:86:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:86:in `retrieve_dirs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:60:in `read_directories'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:89:in `block in retrieve_dirs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:86:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:86:in `retrieve_dirs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:60:in `read_directories'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:89:in `block in retrieve_dirs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:86:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:86:in `retrieve_dirs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:60:in `read_directories'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:89:in `block in retrieve_dirs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:86:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:86:in `retrieve_dirs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:60:in `read_directories'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/reader.rb:16:in `read'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:181:in `read'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:78:in `process'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:28:in `process_site'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/build.rb:65:in `build'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/build.rb:36:in `process'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/exe/jekyll:15:in `<top (required)>'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `load'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `<main>'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air ~ % [K[?2004hccd myblog[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hcd myblog[9Djekyll s [?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.17 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.2.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/3.0.0/socket.rb:201:in `bind': [1mAddress already in use - bind(2) for 127.0.0.1:4000 ([1;4mErrno::EADDRINUSE[m[1m)[m
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/3.0.0/socket.rb:201:in `listen'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/3.0.0/socket.rb:765:in `block in tcp_server_sockets'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/3.0.0/socket.rb:227:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/3.0.0/socket.rb:227:in `foreach'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/3.0.0/socket.rb:763:in `tcp_server_sockets'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/webrick-1.7.0/lib/webrick/utils.rb:60:in `create_listeners'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/webrick-1.7.0/lib/webrick/server.rb:130:in `listen'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/webrick-1.7.0/lib/webrick/server.rb:111:in `initialize'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/webrick-1.7.0/lib/webrick/httpserver.rb:47:in `initialize'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve.rb:215:in `new'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve.rb:215:in `start_up_webrick'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve.rb:102:in `process'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/exe/jekyll:15:in `<top (required)>'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `load'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `<main>'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mps ax | grep rails[27m[18D[27mp[27ms[27m [27ma[27mx[27m [27m|[27m [27mg[27mr[27me[27mp[27m [27mr[27ma[27mi[27ml[27ms[?2004l
+37125 s001  R+     0:00.00 grep rails
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mlsof -i:4000[27m[12D[27ml[27ms[27mo[27mf[27m [27m-[27mi[27m:[27m4[27m0[27m0[27m0[?2004l
+COMMAND   PID          USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+ruby    35548 fujimotokarin   10u  IPv4 0x6d2844121ea71a89      0t0  TCP localhost:terabase (LISTEN)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hl kkill -9 35448[?2004l
+kill: kill 35448 failed: no such process
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hkill -9 3544835448 35448 35448 [?2004l
+kill: kill 35448 failed: no such process
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hkill 35448-9 35448[13Dlsof[2Ci:4000 [?2004l
+COMMAND   PID          USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+ruby    35548 fujimotokarin   10u  IPv4 0x6d2844121ea71a89      0t0  TCP localhost:terabase (LISTEN)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hkkill -9 35548[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.166 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.166 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+	^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hoopen .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hopen .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hopen .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hopen .jekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.169 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2021-09-04 15:49:26
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.08658 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 15:49:47
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.077495 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 16:43:30
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.095567 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 16:44:22
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.071031 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 16:45:02
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.072524 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 17:45:53
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102548 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 17:46:52
+                    _layout/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.072387 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2021-09-04 17:47:17
+                    working.log
+                    _layouts/default.html
+                    _layout/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.067584 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 17:49:50
+                    working.log
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.081549 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 17:53:58
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.077671 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 17:54:22
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.069389 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 17:54:49
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.064837 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 17:59:30
+                    index.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.071977 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 17:59:45
+                    index.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.073779 seconds.
+                    
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjjekyll new[?2004l
+jekyll 4.2.0 | Error:  You must specify a path.
+/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/new.rb:25:in `process': [1mYou must specify a path. ([1;4mArgumentError[m[1m)[m
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/new.rb:19:in `block (2 levels) in init_with_program'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/exe/jekyll:15:in `<top (required)>'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `load'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `<main>'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll news  [8Dopen .  jekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.165 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2021-09-04 18:32:30
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.075253 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 18:32:47
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.067271 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 18:37:04
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.070818 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 18:37:25
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.068886 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 18:42:50
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.0749 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 18:43:10
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.068139 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 18:44:18
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.071128 seconds.
+                    
+[2021-09-04 18:44:21] ERROR `/main.css' not found.
+[2021-09-04 18:47:25] ERROR `/main.css' not found.
+[2021-09-04 18:48:42] ERROR `/main.css' not found.
+[2021-09-04 18:48:43] ERROR `/main.css' not found.
+[2021-09-04 18:48:43] ERROR `/main.css' not found.
+[2021-09-04 18:48:44] ERROR `/main.css' not found.
+[2021-09-04 18:48:44] ERROR `/main.css' not found.
+[2021-09-04 18:49:04] ERROR `/main.css' not found.
+[2021-09-04 18:49:04] ERROR `/main.css' not found.
+[2021-09-04 18:49:04] ERROR `/main.css' not found.
+[2021-09-04 18:49:05] ERROR `/main.css' not found.
+      Regenerating: 3 file(s) changed at 2021-09-04 18:52:24
+                    working.log
+                    _layout/default.html
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.081594 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 18:59:25
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.076421 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 19:10:34
+                    _layout/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.079722 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 19:10:41
+                    _layout/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.074417 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 19:46:30
+                    working.log
+                    _layout/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.084264 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 19:48:08
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.071228 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 19:55:10
+                    _posts/2021-09-03-welcome-to-jekyll0.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.078685 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 19:55:50
+                    _posts/2021-09-04-test-content.markdown
+                    _posts/2021-09-03-welcome-to-jekyll0.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.070486 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 19:57:08
+                    _posts/2021-09-04-test.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.082225 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 19:58:25
+                    _posts/2021-09-04-test.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.083623 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 19:58:28
+                    _posts/2021-09-04-test.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.082023 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 20:01:03
+                    _posts/2021-09-04-test.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.070626 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 20:02:05
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.078937 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 20:08:04
+                    _posts/2021-09-04-test-content.md
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.052953 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 20:08:10
+                    _posts/2021-09-04-test-content.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.080942 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 20:11:45
+                    working.log
+                    2019-09-04-test2.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.09294 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 21:23:46
+                    _posts/2019-09-04-test2.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102616 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 21:37:23
+                    _posts/2021-09-04-test-content.markdown
+                    _posts/2021-09-04-test-content.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.10821 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 21:43:43
+                    _posts/2019-09-04-test2.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.095182 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 21:44:01
+                    _posts/2021-09-04-test-content.markdown
+[33m          Skipping: _posts/2021-09-04-test-content.markdown has a future date[0m
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.079008 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 21:45:21
+                    _posts/2021-09-04-test-content.markdown
+[33m          Skipping: _posts/2021-09-04-test-content.markdown has a future date[0m
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.075156 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-04 21:48:19
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.077507 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:00:28
+                    working.log
+                    plofile.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.081078 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:00:52
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.07764 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:01:22
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.082762 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:22:00
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.145819 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:23:21
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.081242 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:24:03
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.080109 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:24:34
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.083614 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:24:50
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.081317 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:26:06
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.089071 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:26:28
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.082097 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:26:39
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.077025 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:29:19
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.085911 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:31:03
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.092397 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:31:18
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.078901 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-04 22:32:30
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.082244 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 00:07:47
+                    working.log
+                    2019-09-04-test2.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.090205 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 00:15:53
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.083759 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 00:18:13
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.090522 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 00:19:13
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.080298 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 00:21:42
+                    index.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.076935 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 00:28:31
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.084401 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 00:28:36
+                    index.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.080213 seconds.
+                    
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+[33m     Build Warning: Layout 'home' requested in _posts/2021-09-03-welcome-to-jekyll.markdown does not exist.[0m
+[33m     Build Warning: Layout 'home' requested in _posts/2021-09-04-test-content.markdown does not exist.[0m
+[33m     Build Warning: Layout 'default' requested in 404.html does not exist.[0m
+[33m     Build Warning: Layout 'page' requested in about.markdown does not exist.[0m
+[33m     Build Warning: Layout 'home' requested in index.markdown does not exist.[0m
+[33m     Build Warning: Layout 'page' requested in plofile.markdown does not exist.[0m
+                    done in 0.147 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2021-09-05 00:29:33
+                    working.log
+       Jekyll Feed: Generating feed for posts
+[33m     Build Warning: Layout 'home' requested in _posts/2021-09-03-welcome-to-jekyll.markdown does not exist.[0m
+[33m     Build Warning: Layout 'home' requested in _posts/2021-09-04-test-content.markdown does not exist.[0m
+[33m     Build Warning: Layout 'default' requested in 404.html does not exist.[0m
+[33m     Build Warning: Layout 'page' requested in about.markdown does not exist.[0m
+[33m     Build Warning: Layout 'home' requested in index.markdown does not exist.[0m
+[33m     Build Warning: Layout 'page' requested in plofile.markdown does not exist.[0m
+                    ...done in 0.052706 seconds.
+                    
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.182 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2021-09-05 00:46:48
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.117774 seconds.
+                    
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.19 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2021-09-05 00:49:19
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.094004 seconds.
+                    
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.182 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hCCD。。    C  ccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air ~ % [K[?2004hlls[?2004l
+Applications	Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		myblog
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air ~ % [K[?2004hccd .re benv[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air .rbenv % [K[?2004hccd [7mversions/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1[27m[52D[27mv[27me[27mr[27ms[27mi[27mo[27mn[27ms[27m/[27m3[27m.[27m0[27m.[27m2[27m/[27ml[27mi[27mb[27m/[27mr[27mu[27mb[27my[27m/[27mg[27me[27mm[27ms[27m/[27m3[27m.[27m0[27m.[27m0[27m/[27mg[27me[27mm[27ms[27m/[27mm[27mi[27mn[27mi[27mm[27ma[27m-[27m2[27m.[27m5[27m.[27m1[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air minima-2.5.1 % [K[?2004hoopen .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air minima-2.5.1 % [K[?2004hopen .cd versions/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1[52D.rbenv                                              [46D[9Dls       cd ..jekyll s[?2004l
+[33mConfiguration file: none[0m
+            Source: /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1
+       Destination: /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.027 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+		^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air minima-2.5.1 % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air gems % [K[?2004hccd ...[?2004l
+cd: no such file or directory: ...
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air gems % [K[?2004hccd myblog[?2004l
+cd: no such file or directory: myblog
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air gems % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air 3.0.0 % [K[?2004hcd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air gems % [K[?2004hcd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air ruby % [K[?2004hcd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions/3.0.2/lib[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air lib % [K[?2004hcd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions/3.0.2[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air 3.0.2 % [K[?2004hcd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv/versions[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air versions % [K[?2004hcd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/.rbenv[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air .rbenv % [K[?2004hcd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air ~ % [K[?2004hccd myblog[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.198 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 2 file(s) changed at 2021-09-05 01:37:59
+                    assets/main_bk.scss
+                    assets/main.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.136012 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 01:38:41
+                    assets/main.scss
+                    assets/main_bk.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.091092 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 01:40:28
+                    _sass/minima/_base.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.079285 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 01:43:26
+                    _sass/minima/_base.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.092557 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 01:44:51
+                    _sass/minima/_base.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.091151 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 01:45:41
+                    _sass/minima/_base.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.080471 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 02:26:51
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.087044 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 02:37:42
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.085844 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 02:38:52
+                    images/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.081225 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 02:39:34
+                    images/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.077694 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 02:40:13
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.072951 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 02:40:21
+                    images/img07.jpeg.crdownload
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.059399 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 02:40:46
+                    images/img07.jpeg
+                    images/img07.jpeg.crdownload
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.077715 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 02:44:03
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.099027 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 02:47:23
+                    _sass/minima/_base.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.120461 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 02:50:06
+                    _sass/minima/_layout.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.080851 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 02:50:26
+                    _sass/minima/_layout.scss
+       Jekyll Feed: Generating feed for posts
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/main.scss':[0m
+[31m                    Error: Invalid CSS after " position": expected "}", was ": relative;" on line 12:3 of _sass/minima/_layout.scss from line 47:1 of _sass/minima.scss from line 1:1 of main.scss >> position: relative; --^ [0m
+[33m             Error: Error: Invalid CSS after " position": expected "}", was ": relative;" on line 12:3 of _sass/minima/_layout.scss from line 47:1 of _sass/minima.scss from line 1:1 of main.scss >> position: relative; --^ [0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 02:50:51
+                    _sass/minima/_layout.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.078292 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 03:07:34
+                    plofile.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.099168 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:09:11
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.078458 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:16:02
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 41): 'endfor' is not a valid delimiter for if tags. use endif in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 41): 'endfor' is not a valid delimiter for if tags. use endif[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:16:26
+                    _sass/minima/_base.scss
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 41): 'endfor' is not a valid delimiter for if tags. use endif in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 41): 'endfor' is not a valid delimiter for if tags. use endif[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:18:25
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 41): 'endfor' is not a valid delimiter for if tags. use endif in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 41): 'endfor' is not a valid delimiter for if tags. use endif[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:20:36
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 41): 'endfor' is not a valid delimiter for if tags. use endif in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 41): 'endfor' is not a valid delimiter for if tags. use endif[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:20:56
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 41): 'endfor' is not a valid delimiter for if tags. use endif in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 41): 'endfor' is not a valid delimiter for if tags. use endif[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:22:48
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 44): 'endfor' is not a valid delimiter for if tags. use endif in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 44): 'endfor' is not a valid delimiter for if tags. use endif[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:25:32
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 44): 'endfor' is not a valid delimiter for if tags. use endif in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 44): 'endfor' is not a valid delimiter for if tags. use endif[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:35:00
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 45): 'endfor' is not a valid delimiter for if tags. use endif in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 45): 'endfor' is not a valid delimiter for if tags. use endif[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:36:11
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 45): 'endfor' is not a valid delimiter for if tags. use endif in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 45): 'endfor' is not a valid delimiter for if tags. use endif[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:40:20
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.079421 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:41:21
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.077466 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:43:58
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[33m    Liquid Warning: Liquid syntax error (line 32): Unexpected character = in "post.tag ="tagtest"" in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[31m  Liquid Exception: Liquid error (line 32): Unknown operator = in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid error (line 32): Unknown operator =[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:45:00
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.087306 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:46:10
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.079512 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:49:00
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.099541 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 03:51:03
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.080354 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 14:25:34
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.109539 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 14:25:51
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.078681 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 14:30:00
+                    _layouts/page.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.103332 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 14:30:59
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.088875 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 14:32:59
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.111755 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 14:36:00
+                    _layouts/postlist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.098926 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 14:41:06
+                    _includes/postlist.html
+                    _layouts/postlist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.091902 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 14:41:47
+                    _includes/postlist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.088243 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 14:42:36
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.07954 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 14:44:12
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.085588 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 14:44:54
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.081983 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 14:58:45
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.103366 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 15:05:01
+                    index.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.10104 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 15:07:43
+                    _includes/footer.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.093034 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 15:14:33
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.095626 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 15:16:42
+                    index.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.09445 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 15:22:29
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.130127 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 15:24:09
+                    _includes/postlist.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Could not locate the included file 'postlist.html' in any of ["/Users/fujimotokarin/myblog/_includes", "/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1/_includes"]. Ensure it exists in one of those directories and, if it is a symlink, does not point outside your site source. in /Users/fujimotokarin/myblog/_layouts/default.html[0m
+[33m             Error: Could not locate the included file 'postlist.html' in any of ["/Users/fujimotokarin/myblog/_includes", "/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/minima-2.5.1/_includes"]. Ensure it exists in one of those directories and, if it is a symlink, does not point outside your site source.[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 15:24:18
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.085012 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 15:35:20
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.112808 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 15:39:29
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.092204 seconds.
+                    
+[2021-09-05 15:39:33] ERROR `/your-path-to-fontawesome/css/fontawesome.css' not found.
+[2021-09-05 15:39:33] ERROR `/your-path-to-fontawesome/css/brands.css' not found.
+[2021-09-05 15:39:33] ERROR `/your-path-to-fontawesome/css/solid.css' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 15:39:42
+                    _layouts/default.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.07746 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 15:41:17
+                    _includes/head.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.122987 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 15:50:33
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.119244 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 15:50:45
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.085769 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 16:04:49
+                    _layouts/taglist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.097958 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 16:05:03
+                    _layouts/taglist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.081968 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 16:05:37
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.084848 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 16:09:19
+                    _layouts/taglist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.086188 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 16:09:36
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.078264 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 16:09:46
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.078771 seconds.
+                    
+[2021-09-05 16:10:01] ERROR `/taglist.html' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 16:10:26
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.093163 seconds.
+                    
+[2021-09-05 16:10:29] ERROR `/taglist.html' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 16:11:05
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.079182 seconds.
+                    
+[2021-09-05 16:11:09] ERROR `/taglist.html' not found.
+[2021-09-05 16:11:12] ERROR `/_layouts/taglist.html' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 16:13:26
+                    _layouts/taglist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.094133 seconds.
+                    
+[2021-09-05 16:13:36] ERROR `/_layouts/taglist.html' not found.
+[2021-09-05 16:13:39] ERROR `/_layouts/taglist.html' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 16:14:44
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.090703 seconds.
+                    
+[2021-09-05 16:14:57] ERROR `/taglist.html' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 16:15:04
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.080752 seconds.
+                    
+[2021-09-05 16:15:05] ERROR `/taglist.html' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 16:15:26
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.091054 seconds.
+                    
+[2021-09-05 16:15:28] ERROR `/taglist.html' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 16:16:40
+                    _layouts/taglist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.151201 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 16:18:23
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.155194 seconds.
+                    
+[2021-09-05 16:18:26] ERROR `/taglist.html' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 16:18:39
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.083089 seconds.
+                    
+[2021-09-05 16:18:44] ERROR `/_site/taglist.html' not found.
+[2021-09-05 16:19:19] ERROR `/_site/taglist.html' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 17:26:17
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.113368 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 17:28:59
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.090734 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 17:29:36
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.100298 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 17:50:03
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.113944 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 17:50:32
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.085119 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 17:50:52
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.099868 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 17:51:11
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.121822 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 17:51:31
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.086217 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:03:23
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 34): Unknown tag 'categorie' in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 34): Unknown tag 'categorie'[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:05:46
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 34): Unknown tag 'categorie' in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 34): Unknown tag 'categorie'[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:07:50
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 34): Unknown tag 'categorie' in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 34): Unknown tag 'categorie'[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:08:06
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 34): Unknown tag 'categorie' in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 34): Unknown tag 'categorie'[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:08:46
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 34): Unknown tag 'categorie' in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 34): Unknown tag 'categorie'[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:09:13
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 34): Unknown tag 'categorie' in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 34): Unknown tag 'categorie'[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:10:28
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 34): Unknown tag 'categorie' in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 34): Unknown tag 'categorie'[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 34): Unknown tag 'categorie' in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.2.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/block.rb:38:in `unknown_tag': [1mLiquid syntax error (line 34): Unknown tag 'categorie' ([1;4mLiquid::SyntaxError[m[1m)[m
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/tags/for.rb:69:in `unknown_tag'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/block.rb:68:in `block in parse_body'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/block_body.rb:32:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/block.rb:58:in `parse_body'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/tags/for.rb:60:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/tag.rb:10:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/block_body.rb:34:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/document.rb:10:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/document.rb:5:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/template.rb:132:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/template.rb:116:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/liquid_renderer/file.rb:13:in `block in parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/liquid_renderer/file.rb:70:in `measure_time'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/liquid_renderer/file.rb:12:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/renderer.rb:126:in `render_liquid'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/renderer.rb:194:in `render_layout'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/renderer.rb:163:in `place_in_layouts'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/renderer.rb:93:in `render_document'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/renderer.rb:63:in `run'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:547:in `render_regenerated'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:532:in `block (2 levels) in render_docs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:531:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:531:in `block in render_docs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:530:in `each_value'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:530:in `render_docs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:210:in `render'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:80:in `process'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:28:in `process_site'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/build.rb:65:in `build'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/build.rb:36:in `process'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/exe/jekyll:15:in `<top (required)>'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `load'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `<main>'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s]      j  jekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 34): Unknown tag 'categorie' in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.2.0   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/block.rb:38:in `unknown_tag': [1mLiquid syntax error (line 34): Unknown tag 'categorie' ([1;4mLiquid::SyntaxError[m[1m)[m
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/tags/for.rb:69:in `unknown_tag'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/block.rb:68:in `block in parse_body'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/block_body.rb:32:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/block.rb:58:in `parse_body'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/tags/for.rb:60:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/tag.rb:10:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/block_body.rb:34:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/document.rb:10:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/document.rb:5:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/template.rb:132:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/liquid-4.0.3/lib/liquid/template.rb:116:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/liquid_renderer/file.rb:13:in `block in parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/liquid_renderer/file.rb:70:in `measure_time'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/liquid_renderer/file.rb:12:in `parse'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/renderer.rb:126:in `render_liquid'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/renderer.rb:194:in `render_layout'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/renderer.rb:163:in `place_in_layouts'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/renderer.rb:93:in `render_document'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/renderer.rb:63:in `run'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:547:in `render_regenerated'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:532:in `block (2 levels) in render_docs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:531:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:531:in `block in render_docs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:530:in `each_value'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:530:in `render_docs'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:210:in `render'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/site.rb:80:in `process'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:28:in `process_site'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/build.rb:65:in `build'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/build.rb:36:in `process'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/exe/jekyll:15:in `<top (required)>'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `load'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `<main>'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.196 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2021-09-05 18:14:31
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102471 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:15:13
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102169 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:17:34
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.118499 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:22:34
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+[31m  Liquid Exception: Liquid syntax error (line 33): Unknown tag 'ctgr' in /Users/fujimotokarin/myblog/_layouts/home.html[0m
+[33m             Error: Liquid syntax error (line 33): Unknown tag 'ctgr'[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:26:19
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.08823 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:28:41
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.093909 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:29:01
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.090432 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:42:50
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.115797 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:43:21
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.087051 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:43:33
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.082128 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:43:58
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.109294 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:44:08
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.084105 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:45:35
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.089379 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:46:14
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.096396 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:47:23
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.097709 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:48:27
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.084754 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:50:15
+                    _includes/footer.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.101448 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:54:33
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.103328 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:54:52
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.091898 seconds.
+                    
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.195 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2021-09-05 18:55:45
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102821 seconds.
+                    
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.19 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2021-09-05 18:58:05
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.122605 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:58:13
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.083029 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 18:58:28
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.078104 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 19:04:30
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.095256 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 19:04:38
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.088092 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 19:05:23
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.114612 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 19:10:21
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.104254 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 19:11:44
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102814 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 19:11:52
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.0854 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 20:57:20
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.105899 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 20:59:01
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.096004 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 21:35:21
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.103897 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 21:49:47
+                    _layouts/postlist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.140425 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 21:50:22
+                    _layouts/postlist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.083802 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 21:52:22
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.09988 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 21:54:04
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.104899 seconds.
+                    
+[2021-09-05 21:54:15] ERROR `/postlist' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 21:55:33
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.116224 seconds.
+                    
+[2021-09-05 21:55:35] ERROR `/postlist' not found.
+[2021-09-05 21:55:37] ERROR `/_layouts/postlist' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 21:56:20
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.100508 seconds.
+                    
+[2021-09-05 21:56:23] ERROR `/_layouts/postlist' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 21:57:22
+                    _layouts/postlist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.086774 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 22:22:18
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.112959 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 22:22:33
+                    tags/taglist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.062575 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 22:22:44
+                    tags/taglist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.078202 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 22:23:28
+                    tags/taglist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.083893 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 22:23:30
+                    tags/taglist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.077703 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 22:28:16
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.119239 seconds.
+                    
+[2021-09-05 22:28:47] ERROR `/_layouts/postlist' not found.
+[2021-09-05 22:28:48] ERROR `/_layouts/postlist' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 22:29:17
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.130904 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 22:29:49
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.08971 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 22:30:12
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.12748 seconds.
+                    
+[2021-09-05 22:30:27] ERROR `/_layouts/postlist' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 22:32:02
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.09544 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 22:32:05
+                    _posts/2021-09-04-test-content.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.082242 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 22:32:08
+                    _posts/2021-09-03-welcome-to-jekyll.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.085395 seconds.
+                    
+[2021-09-05 22:32:33] ERROR `/_layouts/postlist' not found.
+      Regenerating: 1 file(s) changed at 2021-09-05 22:41:20
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.096271 seconds.
+                    
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.189 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 2 file(s) changed at 2021-09-05 22:51:24
+                    working.log
+                    tags/taglist.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.139115 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 22:52:21
+                    working.log
+                    categorylist.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.082302 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 22:53:50
+                    categorylist.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.09495 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-09-05 22:54:36
+                    categorylist.markdown
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.083961 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-05 22:56:12
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.087058 seconds.
+                    
+		^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hccd ~/GitHub[?2004l
+cd: no such file or directory: /Users/fujimotokarin/GitHub
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hggit cine   lone [7mhttps://github.com/karin71/karin71.github.io.git[27m[48D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m/[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m.[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mi[27mo[27m.[27mg[27mi[27mt[?2004l
+Cloning into 'karin71.github.io'...
+warning: You appear to have cloned an empty repository.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hoopen [7mhttps://github.com/karin71/karin71.github.io.git[27m[48D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m/[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m.[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mi[27mo[27m.[27mg[27mi[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hccd [7mkarin71.github.io[27m[17D[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m.[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mi[27mo/docs[?2004l
+cd: no such file or directory: karin71.github.io/docs
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hcd karin71.github.io/docs[25Dopen https://github.com/karin71/karin71.github.io.git[53Dgit clone https://github.com/karin71/karin71.github.io.git[?2004l
+fatal: destination path 'karin71.github.io' already exists and is not an empty directory.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hgit clone https://github.com/karin71/karin71.github.io.git[58Dcd [34P[17C/docs                                 [33D[25Dopen https://github.com/karin71/karin71.github.io.git[53Dgit clone https://github.com/karin71/karin71.github.io.git[58Dcd ~/GitHub                                               [47D[11Djekyll s   [?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.188 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2021-09-06 00:29:19
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.099088 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-06 00:32:22
+                    karin71.github.io/.git/FETCH_HEAD
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.089158 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2021-09-06 00:37:23
+                    karin71.github.io/.git/FETCH_HEAD
+                    karin71.github.io/.git/logs/refs/remotes/origin/github-pages
+                    karin71.github.io/.git/refs/remotes/origin/github-pages
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.089109 seconds.
+                    
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h
+[7m6[27m[K
+[7m7[27m[K
+[7m8[27m[K
+[7m9[27m[K
+[7mgit init[27m[K
+[7m [27m[K
+[7mgit add .[27m[K
+[7m [27m[K
+[7mgit commit -m “first commit”[27m[K[8A[27m6[1B[27m7[1B[27m8[1B[27m9[1B[27mg[27mi[27mt[27m [27mi[27mn[27mi[27mt[1B[K[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[1B[K[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m“[27mf[27mi[27mr[27ms[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[K                     g [K[K[A[1C[K[K[A[9C     g [K[K[A[1C[K[K[A[8C     g [K[K[A[1C[K[K[A[1C[K[K[A[1C[K[K[A[1C[K[K[A[50C[7mit init[27m[27mi[27mt[27m [27mi[27mn[27mi[27mtgit init[?2004l[1B[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /Users/fujimotokarin/myblog/.git/
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit add .[27m[9D[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[?2004l
+error: 'karin71.github.io/' does not have a commit checked out
+fatal: adding files failed
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hgit add .[?2004l
+error: 'karin71.github.io/' does not have a commit checked out
+fatal: adding files failed
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit commit -m “first commit”[27m[28D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m“[27mf[27mi[27mr[27ms[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m”[?2004l
+error: pathspec 'commit”' did not match any file(s) known to git
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hgit commit -m “first commit”[24Dadd .                   [19Dinit [?2004l
+Reinitialized existing Git repository in /Users/fujimotokarin/myblog/.git/
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hgit initcommit -m “first commit”[24Dadd .                   [19D[?2004l
+error: 'karin71.github.io/' does not have a commit checked out
+fatal: adding files failed
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hggit commit out[?2004l
+error: pathspec 'out' did not match any file(s) known to git
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hgit commit outcouthouteoutcoutkout[?2004l
+error: pathspec 'checkout' did not match any file(s) known to git
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hgit commit checkout out[?2004l
+error: pathspec 'check' did not match any file(s) known to git
+error: pathspec 'out' did not match any file(s) known to git
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hggit checkout[?2004l
+fatal: You are on a branch yet to be born
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit remote add origin[27m[21D[27mg[27mi[27mt[27m [27mr[27me[27mm[27mo[27mt[27me[27m [27ma[27md[27md[27m [27mo[27mr[27mi[27mg[27mi[27mn [7mhttps://github.com/karin71/learning-english-on-netflix.git[27m[58D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m/[27ml[27me[27ma[27mr[27mn[27mi[27mn[27mg[27m-[27me[27mn[27mg[27ml[27mi[27ms[27mh[27m-[27mo[27mn[27m-[27mn[27me[27mt[27mf[27ml[27mi[27mx[27m.[27mg[27mi[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit push origin master[27m[22D[27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mm[27ma[27ms[27mt[27me[27mr[?2004l
+error: src refspec master does not match any
+[31merror: failed to push some refs to 'https://github.com/karin71/learning-english-on-netflix.git'
+[m[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit init[27m[8D[27mg[27mi[27mt[27m [27mi[27mn[27mi[27mt[?2004l
+Reinitialized existing Git repository in /Users/fujimotokarin/myblog/.git/
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h
