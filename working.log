@@ -1978,4 +1978,34 @@ To https://github.com/karin71/learning-english-on-netflix.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 [1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog/.git[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air .git % [K[?2004hccd .[?2004l
 [1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog/.git[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air .git % [K[?2004hcd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit add .[27m[9D[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit commit -m "first commit"[27m[28D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mf[27mi[27mr[27ms[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m"[?2004l
+[master 66225cb] first commit
+ Committer: 藤本かりん <fujimotokarin@fujimotokarinnoMacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 252 insertions(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit remote add origin[27m[21D[27mg[27mi[27mt[27m [27mr[27me[27mm[27mo[27mt[27me[27m [27ma[27md[27md[27m [27mo[27mr[27mi[27mg[27mi[27mn [7mhttps://karin71.github.io/learning-english-on-netflix/[27m[54D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m.[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mi[27mo[27m/[27ml[27me[27ma[27mr[27mn[27mi[27mn[27mg[27m-[27me[27mn[27mg[27ml[27mi[27ms[27mh[27m-[27mo[27mn[27m-[27mn[27me[27mt[27mf[27ml[27mi[27mx[27m/[?2004l
+error: remote origin already exists.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit push -u origin master[27m[25D[27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27m-[27mu[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mm[27ma[27ms[27mt[27me[27mr[?2004l
+To https://github.com/karin71/learning-english-on-netflix.git
+ [31m! [rejected]       [m master -> master (fetch first)
+[31merror: failed to push some refs to 'https://github.com/karin71/learning-english-on-netflix.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit remote add origin [27m[22D[27mg[27mi[27mt[27m [27mr[27me[27mm[27mo[27mt[27me[27m [27ma[27md[27md[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [7mhttps://github.com/karin71/myblog.git[27m[37D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m/[27mm[27my[27mb[27ml[27mo[27mg[27m.[27mg[27mi[27mt[?2004l
+error: remote origin already exists.
 [1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h
