@@ -2163,4 +2163,183 @@ To https://github.com/karin71/myblog.git
 [Jopen       opendiff   opensnoop  openssl[A[0m[27m[24m[50Copen[K v [7mgit push -u origin master[27m[25D[27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27m-[27mu[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mm[27ma[27ms[27mt[27me[27m                       o  oopen [7mhttps://karin71.github.io/myblog/[27m[33D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m.[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mi[27mo[27m/[27mm[27my[27mb[27ml[27mo[27mg[27m/[?2004l
 [J[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hopen https://karin71.github.io/myblog/[?2004l
 [1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit add .[27m
-[7mgit commit -m 'Initial GitHub pages site with Jekyll'[27m[K
+[7mgit commit -m 'Initial GitHub pages site with Jekyll'[27m[K[A[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m'[27mI[27mn[27mi[27mt[27mi[27ma[27ml[27m [27mG[27mi[27mt[27mH[27mu[27mb[27m [27mp[27ma[27mg[27me[27ms[27m [27ms[27mi[27mt[27me[27m [27mw[27mi[27mt[27mh[27m [27mJ[27me[27mk[27my[27ml[27ml[27m'[?2004l
+[master 6eb166f] Initial GitHub pages site with Jekyll
+ Committer: 藤本かりん <fujimotokarin@fujimotokarinnoMacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 90 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hggit push[?2004l
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)Counting objects:  22% (2/9)Counting objects:  33% (3/9)Counting objects:  44% (4/9)Counting objects:  55% (5/9)Counting objects:  66% (6/9)Counting objects:  77% (7/9)Counting objects:  88% (8/9)Counting objects: 100% (9/9)Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 2.25 KiB | 2.25 MiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/karin71/myblog.git
+   7b2c671..6eb166f  master -> master
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hoopne\   en [7mhttps://karin71.github.io/myblog/[27m[33D[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mk[27ma[27mr[27mi[27mn[27m7[27m1[27m.[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mi[27mo[27m/[27mm[27my[27mb[27ml[27mo[27mg[27m/[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hopen https://karin71.github.io/myblog/[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjjekkyle    yle s[?2004l
+zsh: command not found: jekyle
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyle s -s[?2004l
+zsh: command not found: jekyle
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyle -s   l s[?2004l
+/Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/bundler-2.2.27/lib/bundler/resolver.rb:278:in `block in verify_gemfile_dependencies_are_found!': [1mCould not find gem 'github-pages (~> 219)' in locally installed gems. ([1;4mBundler::GemNotFound[m[1m)[m
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/bundler-2.2.27/lib/bundler/resolver.rb:253:in `each'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/bundler-2.2.27/lib/bundler/resolver.rb:253:in `verify_gemfile_dependencies_are_found!'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/bundler-2.2.27/lib/bundler/resolver.rb:50:in `start'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/bundler-2.2.27/lib/bundler/resolver.rb:23:in `resolve'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/bundler-2.2.27/lib/bundler/definition.rb:262:in `resolve'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/bundler-2.2.27/lib/bundler/definition.rb:483:in `materialize'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/bundler-2.2.27/lib/bundler/definition.rb:234:in `specs_for'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/bundler-2.2.27/lib/bundler/runtime.rb:18:in `setup'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/bundler-2.2.27/lib/bundler.rb:149:in `setup'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/plugin_manager.rb:52:in `require_from_bundler'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/exe/jekyll:11:in `<top (required)>'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `load'
+	from /Users/fujimotokarin/.rbenv/versions/3.0.2/bin/jekyll:23:in `<main>'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hjekyll s[?2004l
+Configuration file: /Users/fujimotokarin/myblog/_config.yml
+            Source: /Users/fujimotokarin/myblog
+       Destination: /Users/fujimotokarin/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/fujimotokarin/myblog/_site/plofile/index.html[0m[0m
+[33m                     - plofile.markdown[0m
+[33m                     - plofile2.markdown[0m
+[33m                    [0m
+                    done in 0.246 seconds.
+ Auto-regeneration: enabled for '/Users/fujimotokarin/myblog'
+    Server address: http://127.0.0.1:4000/myblog//
+  Server running... press ctrl-c to stop.
+[2021-09-11 22:50:15] ERROR `/' not found.
+[2021-09-11 22:50:36] ERROR `/images/img07.jpeg' not found.
+[2021-09-11 22:50:39] ERROR `/images/img07.jpeg' not found.
+      Regenerating: 1 file(s) changed at 2021-09-11 22:53:17
+                    working.log
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/fujimotokarin/myblog/_site/plofile/index.html[0m[0m
+[33m                     - plofile.markdown[0m
+[33m                     - plofile2.markdown[0m
+[33m                    [0m
+                    ...done in 0.127562 seconds.
+                    
+      Regenerating: 4 file(s) changed at 2021-09-11 22:53:30
+                    _pages/plofile.markdown
+                    _pages/plofile2.markdown
+                    plofile.markdown
+                    plofile2.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.074673 seconds.
+                    
+      Regenerating: 5 file(s) changed at 2021-09-11 22:54:19
+                    working.log
+                    pages/plofile.markdown
+                    pages/plofile2.markdown
+                    _pages/plofile.markdown
+                    _pages/plofile2.markdown
+       Jekyll Feed: Generating feed for posts
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36m/Users/fujimotokarin/myblog/_site/plofile/index.html[0m[0m
+[33m                     - pages/plofile.markdown[0m
+[33m                     - pages/plofile2.markdown[0m
+[33m                    [0m
+                    ...done in 0.077638 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2021-09-11 22:54:53
+                    working.log
+                    pages/plofile.markdown
+                    pages/plofile2.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.106733 seconds.
+                    
+[2021-09-11 22:56:55] ERROR `/英単語/発音/2021/09/03/pronounciation.html' not found.
+[2021-09-11 22:57:03] ERROR `/英単語/発音/2021/09/03/welcome-to-jekyll.html' not found.
+      Regenerating: 2 file(s) changed at 2021-09-11 23:00:12
+                    working.log
+                    _pages/plofile.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.098614 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2021-09-11 23:01:28
+                    working.log
+                    plofile.markdown
+                    _pages/plofile.markdown
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.094313 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-09-11 23:01:46
+                    working.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.086653 seconds.
+                    
+[2021-09-11 23:01:55] ERROR `/images/img07.jpeg' not found.
+[2021-09-11 23:14:25] ERROR `/images/img07.jpeg' not found.
+[2021-09-11 23:14:54] ERROR `/英単語/発音/2021/09/03/pronounciation.html' not found.
+[2021-09-11 23:15:42] ERROR `/categorie2/2021/09/03/test-content.html' not found.
+[2021-09-11 23:15:52] ERROR `/英単語/発音/2021/09/03/welcome-to-jekyll.html' not found.
+[2021-09-11 23:16:09] ERROR `/categorie2/2021/09/03/test-content.html' not found.
+[2021-09-11 23:17:14] ERROR `/categorie2/2021/09/03/test-content.html' not found.
+      Regenerating: 1 file(s) changed at 2021-09-11 23:18:32
+                    _layouts/home.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.115849 seconds.
+                    
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hggut  g git push[?2004l
+Everything up-to-date
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hv [7mgit commit -m "first commit"[27m[28D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mf[27mi[27mr[27ms[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m"" " " " " " " " " " " " 0"9"1"1" "c"o"m"m"i"t"[1C[?2004l
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   Gemfile[m
+	[31mmodified:   _layouts/home.html[m
+	[31mmodified:   _posts/2021-09-03-welcome-to-jekyll.markdown[m
+	[31mmodified:   _site/404.html[m
+	[31mmodified:   _site/about/index.html[m
+	[31mdeleted:    _site/categorie1/categorie2/2021/09/03/welcome-to-jekyll.html[m
+	[31mmodified:   _site/categorie2/2021/09/03/test-content.html[m
+	[31mmodified:   _site/category/index.html[m
+	[31mmodified:   _site/feed.xml[m
+	[31mmodified:   _site/index.html[m
+	[31mmodified:   _site/plofile/index.html[m
+	[31mmodified:   _site/working.log[m
+	[31mmodified:   working.log[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m_posts/2021-09-11-pronounciation.markdown[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hggit piu  ush[?2004l
+Everything up-to-date
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hggit add.[?2004l
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h[7mgit push -u origin master[27m[25D[27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27m-[27mu[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mm[27ma[27ms[27mt[27me[27mr[?2004l
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://fujimotokarinnoMacBook-Air.local/Users/fujimotokarin/myblog[0m[27m[24m[Jfujimotokarin@fujimotokarinnoMacBook-Air myblog % [K[?2004h
